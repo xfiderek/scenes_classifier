@@ -1,0 +1,16 @@
+{ 
+    "params":
+        {   "epochs":100, 
+            "batch_size":64,
+            "disable_cuda": false,
+            "print_loss_every": 64,
+            "save_model_every": 10,
+            "validate_every": 10
+        },
+    "paths":
+        {   "train_csv":"csv/intel_train.csv",
+            "test_csv":"csv/test_train.csv",
+            "data_dir":"./dataset",
+            "save_path":"./saved_model"
+        }
+}
