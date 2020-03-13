@@ -19,6 +19,7 @@ Repo contains my own pytorch implementation of scenes classifier based on CNN ar
 **Results**  
   After 50 epochs of training with learning rate equal to 0.0007 network reached 96.7% accuracy on test dataset
 
+*by mistake I formatted y axis as percents, to be corrected*  
 ![alt text](https://i.ibb.co/JdLGcwT/loss-2.png "Loss")  
 
 ![alt text](https://i.ibb.co/hLC2NYw/accuracy-1.png "Accuracy")
