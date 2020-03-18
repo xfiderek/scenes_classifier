@@ -68,7 +68,7 @@ class DatasetUtils:
         mean = [0.43, 0.457, 0.454]
         std = [0.21, 0.209, 0.22]
         """
-        dataset = IntelDataset(data_dir, csv_path, pil_transforms=calc_mean_transforms())
+        dataset = IntelDataset(data_dir, csv_path, transforms=calc_mean_transforms())
         loader = DataLoader(dataset, batch_size=10)
         with torch.no_grad():
             mean = 0.
